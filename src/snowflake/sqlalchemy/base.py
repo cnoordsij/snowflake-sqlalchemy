@@ -10,7 +10,7 @@ from sqlalchemy.engine import default
 from sqlalchemy.schema import Sequence, Table
 from sqlalchemy.sql import compiler, expression
 from sqlalchemy.sql.elements import quoted_name
-from sqlalchemy.util.compat import string_types
+from sqlalchemy.util import string_types
 
 from .custom_commands import AWSBucket, AzureContainer, ExternalStage
 from .util import _set_connection_interpolate_empty_sequences
